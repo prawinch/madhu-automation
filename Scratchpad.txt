@@ -1,0 +1,42 @@
+***UK-EN***
+
+
+
+https://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=1&outbound-date=2017-02-10    --One way Journey--
+
+https://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=2&outbound-date=2017-02-10
+
+https://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=1&outbound-date=2017-02-10&inbound-date=2017-02-12  --Outbound Round trip (inbound = outbound +2)--
+
+https://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=1&outbound-date=2017-02-11&inbound-date=2017-02-13  ---Inbound Round Trip ----
+
+http://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=2&outbound-date=2017-02-10
+
+
+***Fr-fr & Be-nl****
+
+
+http://www.eurostar.com/fr-fr/deepstar/search?from=8727100&to=7015400&adult=1&depart=2017-02-10&one_way=1
+http://www.eurostar.com/fr-fr/deepstar/search?from=8727100&to=7015400&adult=1&depart=2017-02-10&return=2017-02-12
+
+
+http://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=2&outbound-date=2017-02-10
+http://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=2&outbound-date=2017-02-10
+
+//div[@class='c-proposal__column-cell']//span[contains(text(),'Not available?')]/../span/a")).getAttribute("href"
+
+
+http://booking.eurostar.com/uk-en/train-search/standard/8727100/7015400?adult=1&outbound-date=2017-02-13&inbound-date=2017-02-15
+http://booking.eurostar.com/uk-en/train-search/standard/8727100/7015400?adult=1&outbound-date=2017-02-13&inbound-date=2017-02-15
+
+-------- from here -----
+3 Secnarios
+
+1. Oneway ___> completed
+2. Two way --- > outbound NA  AND inbount = outbounddate+2  ---- Completed
+					 outbound available but inbound NA  --- to be done
+
+					 https://booking.eurostar.com/uk-en/train-search/standard/7015400/8727100?adult=1&outbound-date=2017-02-11&inbound-date=2017-02-13  ---Inbound Round Trip ----
+                 						HERE OUTbound date = given input date
+                 						inbound date = date from respective column
+                 						Sould Out for all Not available Scenarios
